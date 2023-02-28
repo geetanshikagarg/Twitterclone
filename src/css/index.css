@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+:root {
+ --font-family: 'Poppins', sans-serif;
+}
+
+* {
+  font-family: var(--font-family);
+}
+
+.logincontainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+.loginform {
+  
+  padding: 4rem;
+  width:600px
+}
+
+.loginheading {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+.password {
+  
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+
+.loginbtn {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  width:200px;
+  background-color:#1D9BF0;
+  font-size: 1.2rem;
+  color: white;
+ 
+}
+.homepage
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
+#fixed {
+  width: 250px;
+  height: 100vh;
+}
+.message {
+  color: var(--red);
+}
+
+/* tweet loading css */
+.loader{
+  margin-left: 30%;
+}
+.profile-main {
+  /* display: flex;
+  flex-direction: column; */
+}
+.profile{
+margin-left: 400px;
+height: 100vh;
+display: flex;
+flex-direction: flex-start;
+}
+.profile-header
+{
+  font-weight: bold;
+  margin-left: 500px;
+  font-size: 2rem;
+}
+.profile-body
+{ 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 400px; */
+  font-size: 1.2rem;
+
+}
+.avtar
+{
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.error{
+  text-align: center;
+}
+
+.error-img
+{
+  height: 300px;
+  width: auto;
+ 
+}
+.error-btn
+{
+  background-color:#1D9BF0;
+  font-size: 1.2rem;
+  color: white;
+}

@@ -1,0 +1,119 @@
+#Left {
+    /* width: 300px; */
+    height: 100vh;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(-20px);
+    position: fixed;
+    /* background-color: aquamarine; */
+}
+
+#TwitterLogo {
+    font-size: 30px;
+    color: #0088ff;
+    margin-top: 10px;
+}
+
+#TwitterBox {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: .3s ease-in-out;
+    padding: 3px;
+}
+#box {
+    padding-left: 10px;
+    padding-right: 8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    transition: .3s ease-in-out all;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#box:hover {
+    background: #1D9BF0;
+    cursor: pointer;
+    color: #fff;
+}
+
+#icon {
+    font-size: 25px;
+    color: #444;
+    margin-right: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#Tweet {
+    width: 220px;
+    height: 52px;
+    margin: 10px;
+    background: #0088ff;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    outline: none;
+}
+
+#Tweet:hover {
+    background: #006fcf;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+    #Left {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 846px) {
+    #Left {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 720px) {
+    #Left {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 758px) and (max-width: 762px) {
+    #Left {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 490px) and (max-width: 500px) {
+    #Left {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1005px) {
+    #Left {
+        display: flex;
+    }
+
+    #text-navbar-left {
+        display: none;
+    }
+
+    #Tweet {
+        display: none;
+    }
+}

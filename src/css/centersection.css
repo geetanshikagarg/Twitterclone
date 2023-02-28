@@ -1,0 +1,96 @@
+.center{
+    /* background-color: aquamarine; */
+    height: 100vh;
+    padding:10px
+   
+}
+
+.navheader {
+    max-width:auto ;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tweet div {
+    justify-content: flex-start;
+  }
+  
+  
+  .dp {
+    height: 3rem;
+  }
+  
+  .tweet-input {
+    background-color: transparent;
+    border: none;
+    padding: 0.2rem;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .btn {
+    background: #0088ff;
+    color: #fff;
+    margin-left: 10px;
+   
+  }
+  .tweet-btn {
+    background: #0088ff;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    outline: none;
+    display: flex;
+
+  }
+  .tweet-btndisable {
+    background: #585b5e;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    outline: none;
+    display: flex;
+
+  }
+  .viewtweet {
+   align-items: flex-start;
+   padding: 1rem;
+}
+
+.viewtweet-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.viewtweet-username,
+.viewtweet-date, .viewtweet-adds {
+    color: grey;
+    opacity: 0.7;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.viewtweet-content {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.viewtweet-adds {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.viewtweet-delete:hover{
+color: var(--blue);
+}
+
+.viewtweet-edit:hover{
+    color: var(--blue);
+}
+  

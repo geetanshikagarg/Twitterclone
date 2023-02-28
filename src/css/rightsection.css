@@ -1,0 +1,32 @@
+
+.right-panel{
+    position: relative;
+    /* max-width: 900px; */
+    
+}
+.rightpanel-searchbar
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.searchbar-input{
+    border-radius: 2rem;
+    background-color:rgb(188, 184, 184);
+    padding: 1rem;
+    justify-content: flex-start;
+    margin:3rem;
+    color: white;
+    width: 300px;
+    
+    font-size: 1.05rem;
+}
+.text
+{
+    font-size: 1rem;
+}
+.rightpanel-seachresult
+{
+    width:300px;
+    padding: 1rem;
+    margin:3rem;
+}
